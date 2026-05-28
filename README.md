@@ -1,6 +1,7 @@
 # GUZU - Android Source Code
 
-## Overview
+## OVERVIEW
+## BY SHUBHAM MALLICK
 
 GUZU is an Android application project developed as part of my learning and practical development journey in software engineering and Android app development.
 
