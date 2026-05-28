@@ -1,0 +1,48 @@
+name: guzu
+description: GUZU — Ultra-minimalist, privacy-first Android web browser.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # WebView Engine
+  flutter_inappwebview: ^6.1.5
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Database
+  sqflite: ^2.4.2
+  path: ^1.9.0
+
+  # File System
+  path_provider: ^2.1.5
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # HTTP Client (for downloads)
+  dio: ^5.7.0
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+
+  # UI
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
